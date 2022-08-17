@@ -1,0 +1,21 @@
+{
+    "name": "mageworkshop/product-labels-module",
+    "description": "Product label module.",
+    "version": "1.0.1",
+    "type": "magento2-module",
+    "require": {
+        "php": "~7.3.0|~7.4.0|~8.0.0|~8.1.0",
+        "mageworkshop/core": ">=1.2.4"
+    },
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageWorkshop\\ProductLabelsModule\\": ""
+        }
+    }
+}
